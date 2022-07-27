@@ -1,0 +1,299 @@
+html{
+    scroll-behavior: smooth;
+ }
+
+ :target {
+    scroll-margin-inline: .8em;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+     
+}
+
+header{
+    width: 100%;
+    max-height: 158px;
+    background-color: white;
+    padding: 20px 0;
+    border-bottom:2px solid #9F0084 ;
+    position: fixed; 
+    
+}
+.center-q{
+       width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+} 
+
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding:0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo{
+    color: #7B7FE5;
+    float: left;
+    line-height: 30px;
+}
+
+.logo h1{
+    font-weight: 400;
+    font-size: 25px ;
+}
+
+.menu{
+    
+    float: right;
+    line-height: 25px;
+    
+}
+.menu a{
+    color: #7B7FE5;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 15px;
+    line-height: normal;
+    font-size: 14px;
+    transition:0.5s;
+   
+}
+.menu a:hover{
+    color: #5F09A8;
+}
+
+/*
+section main
+*/
+
+section.main{
+    background-image:url('img/KDABack.jpg');
+    padding: 140px 0;
+    width: 100%;
+    min-width: 158px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.main_cta{
+    width: 100%;
+    text-align: center;
+
+    }
+
+    .main_cta h3{
+        font-size: 20px;
+        color: #6368E6;
+    }
+
+    .main_cta img{
+        width: 40%;
+    }
+    
+    .diferenciais{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .diferencial-single{
+        border-radius: 10px;
+        background:rgba(255, 255, 255, 0.1) ;
+        width: 23%;
+        margin-right: 2%;
+        padding: 60px 30px;
+        
+    }
+    
+    .diferencial-single i{
+        color: #61b8ff;
+        font-size: 25px;
+    }
+    
+    .diferencial-single h2{
+        color:#9052EC;
+        margin: 12px 0;
+        font-size: 15px;
+        line-height: 30px;
+    }
+    section.sobre{
+        padding: 40px 0;
+        background-image: url('img/KDAIconBack.png');
+        min-width: 158px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+    .chamada-sobre{
+        width: 100%;
+        text-align: center;
+    }
+    .chamada-sobre h2{
+        color: #6368E6;
+        text-transform: uppercase;
+    }
+    .chamada-sobre p{
+        font-size: 12px;
+        color: #BF97FC;
+        margin: 20px 0;
+        
+    }
+    .conteudo-sobre{
+        display: flex;
+    }
+    .conteudo-sobre p{
+        margin: 0 20px;
+        flex-wrap: wrap;
+        color: #5F09A8;
+        background:rgba(172, 252, 252, 0.801) ;
+        border-radius: 10px;
+        padding: 40px 20px;        
+    }
+    section .conquistas{
+        background-color:#A35065 ;
+        padding: 20px 0;
+        
+    }
+    .conquista-single{
+        margin-right: 3%;
+        text-align: center; 
+        color: #BF1EDA;
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+        flex: 0.25;
+
+    }
+    
+    .conquista-single a{
+        color: #6368E6;
+        font-size: 30px;
+        text-decoration: none;
+        min-width: 143px;
+    }
+
+    .conquista-single img{
+        max-width: 100%;
+        
+    }
+
+    .conquista-single img{
+        filter: grayscale(100%);
+        transform: scale(1,1);
+        transition: 1s;
+        -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    }
+    .conquista-single img:hover{
+        transform: scale(1.1,1.1);
+        filter: grayscale(0);
+    } 
+    section .sobre-membros{
+
+        padding: 80px 0;
+        background-image: url('img/KDAIconBack.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    }
+    
+    .sobre-membros-content{
+        width: 45%;
+        padding: 0 50px;
+    }
+    
+    .sobre-membros h2{
+        color: #994CD2;
+        margin-bottom: 20px;
+    }
+    .sobre-membros p{
+        color: #413D75;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+   
+    .membros-perfil-single img{
+        max-width: 100%;
+    }
+
+    .membros-perfil-single img{
+        filter: grayscale(100%);
+        transform: scale(1,1);
+        transition: 1s;
+        -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    }
+    .membros-perfil-single img:hover{
+        transform: scale(1.2,1.2);
+        filter: grayscale(0);
+    } 
+
+    .rodape{
+
+        background-color: #390B65;
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 157px;
+
+    }
+    .rodape h2{
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-top: 20px;
+        text-align: left;
+    }
+    .rodape p{
+        font-size: 20px;
+        margin-top: 20px;
+        text-align: left;
+        font-weight: lighter;
+        text-align: left;
+        color:#0e6891 ;
+        text-transform: unset;
+    }
+
+    .rodape-single a{
+        text-align: right;
+        color: #413D75;
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px 15px;
+        line-height: normal;
+        font-size: 14px;
+
+    }
+    .rodape-single p{
+        text-align: right;
+        color: #0e6891;
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px 15px;
+        line-height: normal;
+        font-size: 14px;
+    }
+.rodape-single img{
+    width: 40px;
+        -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+    @media screen and (max-width: 768px){
+    
+        .diferencial-single{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+       .conteudo-sobre{
+        width: 100%;
+       }
+    }
